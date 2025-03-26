@@ -1,12 +1,77 @@
-# React + Vite
+# Xora | SaaS Landing Page 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive SaaS landing page built with React to showcase product features and convert visitors into customers.
 
-Currently, two official plugins are available:
+## 🛠 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** React, Vite, Tailwind CSS
+- **Build Tool:** Vite
+- **Package Manager:** npm or yarn
+- **Deployment:** Vercel (optional)
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/react-saas-website.git
+   cd react-saas-website
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open in browser**  
+   Visit `http://localhost:5173` (or the port shown in the terminal) to view the site.
+
+## 🚀 Deployment
+
+To deploy on **Vercel**, run:
+
+```bash
+npm run build
+vercel deploy
+```
+
+For **Netlify**, use:
+
+```bash
+npm run build
+netlify deploy
+```
+
+## 📁 Project Structure
+
+```
+react-saas-website/
+│-- public/         # Static assets
+│-- src/            # Source files
+│   ├── components/ # Reusable UI components
+│   ├── pages/      # Page components
+│   ├── styles/     # Global styles
+│   ├── main.jsx    # Root React file
+│-- index.html      # Main entry point
+│-- package.json    # Project dependencies
+│-- README.md       # Project documentation
+```
+
+## 🛠 Features
+
+✅ Fully responsive design  
+✅ Fast performance with Vite  
+✅ Easy to customize with Tailwind CSS  
+✅ SEO-friendly  
+✅ Deployable on Vercel, Netlify, or any static hosting
